@@ -14,7 +14,7 @@ public class HttpApplication extends AbstractVerticle {
 
     static final String template         = "Hello, %s!";
 
-    static final String responseTemplate = "Output: %s";
+    static final String responseTemplate = "%s";
 
     @Override
     public void start(Future<Void> future) {
